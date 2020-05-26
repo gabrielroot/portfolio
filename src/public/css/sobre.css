@@ -1,0 +1,95 @@
+:root{
+    --color-green: #50fa7b;
+    --color-rocket: #7159c1;
+}
+
+.box{
+    display: grid;
+    width: 100%;
+    background-image: linear-gradient(to bottom, black 20%, #041c04);
+    padding-bottom: 50px;
+}
+
+.corpo{
+    display:flexbox ;
+    max-width: 1000px;
+    justify-self: center;
+}
+.corpo p{
+    color: #50fa7b;
+    margin-bottom: 20px;
+}
+
+p.p-git{
+    color: var(--color-green);
+    text-align: center;
+    line-height: 75px;
+    background-color: rgba(0, 0, 0, 0.59);
+}
+
+.corpo a{
+    color: white;
+    font-size: 25px;
+}
+
+.followme{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    background-color: black;
+    padding:10px 10px 0px 10px;
+}
+
+@media (max-width: 660px){
+    .followme{
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+}
+
+.links a:hover, #wrapper a:hover{
+    color:var(--color-green);
+    transition: color 500ms;
+}
+
+.desc{
+    text-align: center;
+}
+#wrapper{
+    display: grid;
+}
+
+#wrapper img{
+    border-radius: 50%;
+    border: 5px solid var(--color-green);
+    height: 30vw;
+    max-height: 300px;
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.desc  p:first-of-type{
+    font-size: 30px;
+    line-height: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    justify-self: center;
+    color: rgb(239, 238, 240);
+}
+
+#wrapper h2{
+    font-size: 24px;
+    opacity: 0.2;
+}
+
+.desc p {
+    max-width: 500px;
+    margin: 32px auto;
+    font-size: 18px;
+    color: #9e9e9e;
+}
+
+.desc a{
+    color: white;
+}
