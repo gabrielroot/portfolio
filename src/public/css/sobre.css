@@ -6,7 +6,7 @@
 .box{
     display: grid;
     width: 100%;
-    background-image: linear-gradient(to bottom, black 20%, #041c04);
+    background-image: linear-gradient(to top, #0f2b00, rgb(0, 0, 0)); /*Este, é o inverso do degradê do topo*/
     padding-bottom: 50px;
 }
 
