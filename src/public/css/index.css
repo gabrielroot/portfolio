@@ -126,7 +126,7 @@ section:first-of-type h3{/*Por enquanto, veja oq ja foi desenvolvido*/
 
 .projetos .item:hover{
     box-shadow: 0px 0px 9px 1px #15d01a;
-    transition: border 300ms;
+    transition: box-shadow 300ms;
 }
 
 .projetos .item img{
