@@ -91,6 +91,7 @@ section:first-of-type{/*Por enquanto, veja oq ja foi desenvolvido*/
     padding: 50px 0;
     background-color: black;
     justify-items: center;
+    border-bottom: solid 14px #081700;
 }
 
 section:first-of-type h3{/*Por enquanto, veja oq ja foi desenvolvido*/
@@ -158,6 +159,7 @@ section:last-of-type{/*E aproveite para dar uma stalkeada*/
     padding-bottom: 200px;
     background-color: black;
     justify-items: center;
+    border-top: solid 14px #081700;
 }
 
 section:last-of-type h3{/*E aproveite para dar uma stalkeada*/
